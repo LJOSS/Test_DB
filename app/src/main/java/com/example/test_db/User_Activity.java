@@ -27,15 +27,6 @@ public class User_Activity extends AppCompatActivity implements View.OnClickList
 
     }
 
-    public void sooqablyad() {
-        int i = 1;
-        int ii = 1;
-        int iii = 1;
-        int iiii = 1;
-        int iiiii = 1;
-    }
-
-
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
