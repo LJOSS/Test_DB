@@ -24,7 +24,6 @@ public class User_Activity extends AppCompatActivity implements View.OnClickList
         etEmail = findViewById(R.id.etEmail);
         etName = findViewById(R.id.etName);
         etId = findViewById(R.id.etId);
-
     }
 
     @Override
