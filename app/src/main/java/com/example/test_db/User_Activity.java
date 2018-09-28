@@ -35,24 +35,13 @@ public class User_Activity extends AppCompatActivity implements View.OnClickList
                 Name = etName.getText().toString();
                 Email = etEmail.getText().toString();
 
-                int i = 1;
-                int ii = 1;
-                int iii = 1;
-                int iiii = 1;
-                int iiiii = 1;
-
-
                 User user = new User();
                 user.setId(Id);
                 user.setEmail(Email);
                 user.setName(Name);
                 MainActivity.MyDB.userDAO().AddUser(user);
 
-                Toast.makeText(this, "SUQFDHIUFBIEUFBEUCQEF", Toast.LENGTH_SHORT).show();
-
-                Toast.makeText(this, "qwedasxcsxzcsc", Toast.LENGTH_SHORT).show();
-
-                Toast.makeText(this, "qweqwdasd", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Sucsess", Toast.LENGTH_SHORT).show();
                 etEmail.setText("");
                 etName.setText("");
                 etId.setText("");
